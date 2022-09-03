@@ -32,11 +32,11 @@
 }
 
 .toggle-menu-icon{
-  width: 2.3rem;
+  width: 2rem;
   height: auto;
   position: absolute;
-  top: 0.9rem;
-  right: 1.8rem;
+  top: 1rem;
+  right: 1rem;
   cursor: pointer;
   z-index: 1;
 }
@@ -54,11 +54,36 @@
 }
 
 @media (min-width: 768px){
+  .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5rem;
+    align-items: center;
+  }
+  
   .header-list{
     flex-direction: row;
+    position: relative;
+    gap: 3rem;
+    width: auto;
+    height: 100%;
+    transition: none;
   }
 
-  .toggle-menu{
+  .header-list li{
+    display: inline-block;
+    font-size: 0.9rem;
+    padding: 0;
+    transition: none;
+  }
+
+  .header-list li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .toggle-menu-icon{
     display: none;
   }
 }

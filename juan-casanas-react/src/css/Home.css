@@ -7,13 +7,16 @@
 .home-cover-container{
   width: 100%;
   height: 19rem;
+  background-image: url(../imgs/Juan-Casañas.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.home-cover-container img{
+/* .home-cover-container img{
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
+} */
 
 .home-main-img-container{
   width: 75%;
@@ -33,4 +36,10 @@
 .home-p-container p{
   padding: 1rem 2rem;
   font-weight: 600;
+}
+
+@media (min-width: 768px){
+  .home-cover-container{
+    height: 35rem;
+  }
 }

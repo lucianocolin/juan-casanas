@@ -1,6 +1,6 @@
 import{ React, useEffect} from 'react';
 import '../css/Home.css';
-import juancasanas from '../imgs/Juan-Casañas.png';
+/* import juancasanas from '../imgs/Juan-Casañas.png'; */
 import juancasanas2 from '../imgs/Juan-Casañas2.png';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -14,7 +14,7 @@ const Home = () => {
   return (<>
   <div className='home'>
     <div className='home-cover-container'>
-      <img src={juancasanas} alt="Juan Casañas" />
+      {/* <img src={juancasanas} alt="Juan Casañas" /> */}
     </div>
     <div className='home-main-img-container'>
       <img src={juancasanas2} alt='Juan Casañas' />
