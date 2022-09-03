@@ -1,0 +1,27 @@
+.footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  background-color: black;
+  height: 4.5rem;
+  color: white;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-icons-container{
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer-icons-container a{
+  font-size: 2rem;
+  color: white;
+}
+
+.footer-rights p{
+  font-size: 0.8rem;
+}
