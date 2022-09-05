@@ -19,7 +19,7 @@
 } */
 
 .home-main-img-container{
-  width: 75%;
+  width: 80%;
   height: auto;
   margin-top: 2.5rem;
 }
@@ -41,5 +41,9 @@
 @media (min-width: 768px){
   .home-cover-container{
     height: 35rem;
+  }
+
+  .home-main-img-container{
+    width: 40%;
   }
 }

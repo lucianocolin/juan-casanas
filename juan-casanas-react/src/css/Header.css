@@ -8,6 +8,11 @@
   height: 4.5rem;
 }
 
+.header h2{
+  font-size: 1.1rem;
+  margin-top: 1.7rem;
+}
+
 .header-list{
   display: flex;
   flex-direction: column;
@@ -32,10 +37,10 @@
 }
 
 .toggle-menu-icon{
-  width: 2rem;
+  width: 1.8rem;
   height: auto;
   position: absolute;
-  top: 1rem;
+  top: 28%;
   right: 1rem;
   cursor: pointer;
   z-index: 1;
@@ -46,7 +51,7 @@
 }
 
 #check:checked ~ .header-list{
-  height: 60vh;
+  height: 65vh;
 }
 
 #check:checked ~ .header-list li{
