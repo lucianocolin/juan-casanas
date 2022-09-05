@@ -16,20 +16,22 @@ const Home = () => {
     <div className='home-cover-container'>
       {/* <img src={juancasanas} alt="Juan Casañas" /> */}
     </div>
-    <div className='home-main-img-container'>
-      <img src={juancasanas2} alt='Juan Casañas' />
-    </div>
-    <div className='home-p-container'>
-      <p data-aos='fade-up'>
-        Soy ingeniero agrónomo, productor agropecuario y ex diputado
-        nacional por la provincia de Tucumán, miembro de la Unión Civica Radical. <br /> <br />
-        Inicié mi actividad gremial en el ámbito agropecuario en la Federación Agraria Argentina
-        en 2008 y llegué a ser Secretario del Distrito 11 en Tucumán
-      </p>
-      <p data-aos='fade-up'>
-        Asumí como diputado nacional en las elecciones legislativas del 2009
-        como uno de los 11 diputados de orígen agropecuario.
-      </p>
+    <div className='home-body-container'>
+      <div className='home-main-img-container'>
+        <img src={juancasanas2} alt='Juan Casañas' />
+      </div>
+      <div className='home-p-container'>
+        <p data-aos='fade-up'>
+          Soy ingeniero agrónomo, productor agropecuario y ex diputado
+          nacional por la provincia de Tucumán, miembro de la Unión Civica Radical. <br /> <br />
+          Inicié mi actividad gremial en el ámbito agropecuario en la Federación Agraria Argentina
+          en 2008 y llegué a ser Secretario del Distrito 11 en Tucumán
+        </p>
+        <p data-aos='fade-up'>
+          Asumí como diputado nacional en las elecciones legislativas del 2009
+          como uno de los 11 diputados de orígen agropecuario.
+        </p>
+      </div>
     </div>
   </div>
   </>
