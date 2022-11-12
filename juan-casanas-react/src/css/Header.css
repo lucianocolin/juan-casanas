@@ -52,7 +52,8 @@
 }
 
 #check:checked ~ .header-list{
-  height: 50vh;
+  height: 45vh;
+  z-index: 1;
 }
 
 #check:checked ~ .header-list li{
