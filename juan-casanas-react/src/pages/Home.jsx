@@ -16,7 +16,7 @@ const Home = () => {
       <div className='home-p-container' data-aos='fade-up'>
         <p>
           Soy ingeniero agrónomo, productor agropecuario y ex diputado
-          nacional por la provincia de Tucumán, miembro de la Unión Civica Radical. <br /> <br />
+          nacional por la provincia de Tucumán, miembro de Juntos por el Cambio. <br /> <br />
           Inicié mi actividad gremial en el ámbito agropecuario en la Federación Agraria Argentina
           en 2008 y llegué a ser Secretario del Distrito 11 en Tucumán
         </p>
