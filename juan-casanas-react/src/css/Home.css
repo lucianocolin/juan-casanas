@@ -4,9 +4,18 @@
   align-items: center;
 }
 
+.introduction-container{
+  text-align: center;
+  margin: 0.5rem;
+  padding: 0 2rem;
+  font-family: 'Amplitude','Arial Narrow', sans-serif;
+  font-size: 1.2rem;
+  color: #5f5d5d;
+}
+
 .home-cover-container{
   width: 100%;
-  height: 19rem;
+  height: 13rem;
   background-image: url(../imgs/Juan-Casañas.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -27,22 +36,37 @@
 
 .home-main-img-container{
   width: 80%;
-  height: auto;
-  margin-top: 3rem;
+  height: 9.5rem;
+  margin-bottom: 3rem;
+  box-shadow: 1px 1px 10px rgb(135, 134, 134);
+  border-radius: 2px;
 }
 
 .home-main-img-container img{
   width: 100%;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+.home-main-img-container p{
+  font-size: 0.8rem;
+  margin: 0;
+  margin-left: 0.3rem;
+  color: #5f5d5d;
+  font-weight: bold;
 }
 
 .home-p-container{
   text-align: center;
   word-wrap: break-word;
+  margin: 1.2rem 0;
 }
 
 .home-p-container p{
-  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  padding: 0 2rem;
   font-weight: 600;
+  color: #5f5d5d;
 }
 
 @media (min-width: 768px){
