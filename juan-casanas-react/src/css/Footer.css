@@ -35,5 +35,14 @@
 @media (min-width: 768px){
   .footer{
     justify-content: space-around;
+    flex-direction: row;
+  }
+
+  .footer-icons-container a{
+    font-size: 2.5rem;
+  }
+
+  .footer-rights p{
+    font-size: 1.5rem;
   }
 }
