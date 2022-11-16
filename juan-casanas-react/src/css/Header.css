@@ -37,6 +37,16 @@
   transition: all .5s;
 }
 
+.header-link{
+  color: white;
+  text-decoration: none;
+}
+
+.active{
+  color: black;
+  background-color: white;
+}
+
 .toggle-menu-icon{
   width: 1.8rem;
   height: auto;
@@ -52,7 +62,7 @@
 }
 
 #check:checked ~ .header-list{
-  height: 45vh;
+  height: 50vh;
   z-index: 1;
 }
 
@@ -80,7 +90,7 @@
 
   .header-list li{
     display: inline-block;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     padding: 0;
     transition: none;
   }
