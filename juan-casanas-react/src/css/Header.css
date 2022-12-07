@@ -1,6 +1,7 @@
 .header{
   text-align: left;
-  position: absolute;
+  position: fixed;
+  z-index: 1;
   top: 0;
   color: white;
   background-color: black;
@@ -97,6 +98,12 @@
 
   .header-list li:hover{
     cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .active{
+    color: white;
+    background: none;
     text-decoration: underline;
   }
 
