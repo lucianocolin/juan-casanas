@@ -6,6 +6,7 @@ import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import AboutMe from './pages/AboutMe';
+import MyWork from './pages/MyWork';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/sobre-mi' element={<AboutMe />} />
+            <Route path='/mi-trabajo' element={<MyWork />} />
           </Routes>
         </Layout>
       </Router>

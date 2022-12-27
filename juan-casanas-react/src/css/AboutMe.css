@@ -17,7 +17,7 @@
 }
 
 h4{
-  margin: 5% 0 5% 5%;
+  margin: 1rem;
   line-height: 1.6rem;
 }
 
@@ -25,12 +25,13 @@ h4{
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 .about-me-cards{
   width: 80%;
-  margin-bottom: 2rem;
-  height: 12rem;
+  margin: 0 0 2rem;
+  height: auto;
   box-shadow: 1px 1px 10px rgb(135, 134, 134);
   border-radius: 2px;
 }
@@ -44,9 +45,33 @@ h4{
 .about-me-cards p{
   font-size: 0.8rem;
   margin: 0;
+  padding: 0.2rem;
   margin-left: 0.3rem;
   color: #5f5d5d;
   font-weight: bold;
+}
+
+.about-me-farm-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-me-policy-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-me-studies-text{
+  text-align: left;
+  padding: 2% 8% 10% 8%;
+}
+
+.about-me-studies-text p{
+  color: rgb(0, 0, 0);
+  margin: 0;
+  line-height: 1.4rem;
 }
 
 .about-me-text{
@@ -61,7 +86,7 @@ h4{
   line-height: 1.4rem;
 }
 
-.about-me-text h2{
+.about-me-section-title{
   background-color: black;
   color: white;
   height: 3rem;
@@ -71,6 +96,7 @@ h4{
   flex-wrap: wrap;
   padding: 0.5rem 3rem;
   text-align: center;
+  width: 60%;
 }
 
 @media (min-width: 768px){
@@ -81,11 +107,16 @@ h4{
   }
 
   .about-me-cards{
-    width: 30%;
+    width: 45%;
+    margin-right: 5%;
   }
 
   h2{
     font-size: 2.5rem;
+  }
+
+  .about-me-section-title{
+    width: 100%;
   }
 
   .name-jfc{
@@ -98,13 +129,39 @@ h4{
     line-height: 2.5rem;
   }
 
+  .about-me-studies-text{
+    padding: 0 5%;
+    margin-bottom: 2rem;
+  }
+
+  .about-me-studies-text p{
+    font-size: 1.7rem;
+    line-height: 2.7rem;
+  }
+
+  .about-me-text{
+    display: flex;
+    flex-wrap: wrap;
+    width: 55%;
+    padding: 0 5%;
+  }
+
   .about-me-text p{
-    font-size: 1.2rem;
-    line-height: 2rem;
-    padding-top: 0.5%;
+    font-size: 1.7rem;
+    line-height: 2.7rem;
   }
 
   .about-me-text h2{
     margin: 0;
+  }
+
+  .about-me-farm-section{
+    flex-direction: row;
+    margin-bottom: 2rem;
+  }
+
+  .about-me-policy-section{
+    flex-direction: row;
+    margin-bottom: 3rem;
   }
 }

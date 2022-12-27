@@ -24,8 +24,16 @@ const Header = () => {
                 Sobre Mí
               </NavLink>
             </li>
-            <li>Mi trabajo</li>
-            <li>Contacto</li>
+            <li>
+              <NavLink to='/mi-trabajo' className='header-link'>
+                Mi trabajo
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to='/contacto' className='header-link'>
+                Contacto
+              </NavLink>
+            </li>
           </ul>
         </nav>
       </div>
